@@ -1,0 +1,51 @@
+header {
+display: flex;
+background-color: aqua;
+}
+
+.global { 
+display: flex;
+flex-direction: column;
+row-gap: 25px;
+
+}
+
+.mainDiv { 
+display: flex;
+flex-direction: row;
+column-gap: 25px;
+}
+
+.mainDiv .main { 
+display: flex;
+background-color: green;
+flex-basis: 80%;
+}
+
+
+
+.parent { 
+display: flex;
+align-content: flex-end;
+flex-wrap: wrap;
+column-gap: 10px;
+row-gap: 10px;
+}
+
+.parent div { /** to 'call' the divs inside the parent class - css entered here will only effect the divs inside the class **/
+flex-basis: 20%;
+background-color: lightgreen;
+border-radius: 15px;
+}
+
+.mainDiv .sidebar { 
+background-color: red;
+color: white;
+width: 100%;
+flex: 1 1 20%;
+}
+
+.footer { 
+display: flex;
+background-color: aqua;
+}
